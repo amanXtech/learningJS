@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+
+.div {
+    height: 400px;
+    width: 900px;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 10px;
+}
+
+button {
+    border-radius: 5px;
+}
