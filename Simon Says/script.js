@@ -37,6 +37,8 @@ function levelUp() {
 
 for(b of box) {
     b.addEventListener("click" , function() {
-        console.log("box clicked");
+        if(level > 0) {
+            console.log("box clicked");
+        }
     });
 }
