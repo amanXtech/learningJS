@@ -1,6 +1,6 @@
 let h1 = document.querySelector('h1');
 let btn = document.querySelector('button');
-let box = document.querySelector('div');
+let box = document.querySelector('.div');
 
 function getColor() {
     let r = Math.floor(Math.random() * 255);
