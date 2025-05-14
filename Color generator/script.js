@@ -1,6 +1,7 @@
 let h1 = document.querySelector('h1');
 let btn = document.querySelector('button');
 let box = document.querySelector('.div');
+let box1 = document.querySelector('.out');
 
 function getColor() {
     let r = Math.floor(Math.random() * 255);
@@ -16,4 +17,5 @@ btn.addEventListener("click" , function() {
     h1.innerHTML = cl;
     h1.style.color = cl;
     box.style.backgroundColor = cl;
+    box1.style.borderColor = cl;
 })

@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    background-color: black;
 }
 
 .div {
@@ -8,6 +9,15 @@ body {
     border: 1px solid black;
     margin: auto;
     border-radius: 10px;
+}
+
+.out {
+    background-color: white;
+    height: 93vh;
+    width: 95vw;
+    border: 20px ridge black;
+    border-radius: 20px;
+    margin: -4px;
 }
 
 button {
